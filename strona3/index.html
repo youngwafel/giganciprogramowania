@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karta Gracza</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="player-card">
+    <!-- TODO: dodaj sekcje karty gracza -->
+     <header class="card-header">
+      <figure class="avatar">
+        <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=PixelKing" alt="Awatar gracza" width="80" height="80">
+        <figcaption>Awatar: youngwafel</figcaption>
+      </figure>
+
+      <h1>Karta Gracza</h1>
+      <p>Nick: <span class="hightlight">youngwafel</span></p>
+      </header>
+      
+      <nav class="card-nav">
+        <a href="#bio">Bio</a>
+        <a href="#equipment">Ekwipunek</a>
+        <a href="#achievements">Osiągnięcia</a>
+      </nav>
+
+      <section class="card-section bio" id="bio">
+        <h2>Bio</h2>
+        <p>Poziom: <strong>35</strong></p>
+        <p>Klasa: <strong>Mag ziemii</strong></p>
+        <p>Gildia <strong>Wyspa zielonego przylądka</strong></p>
+      </section>
+      <section class="card-section equipment" id="equipment">
+        <h2>Ekwipunek</h2>
+        <ul>
+          <li>Drewniany miecz</li>
+          <li>Szata z skóry tygrysa</li>
+          <li>Pierścień mocy 67</li>
+        </ul>
+      </section>                              
+
+      <section class="card-section achievements" id="achievements">
+        <h2>Osiągnięcia</h2>
+        <ul>
+          <li>Pokonanie wielkiego boga, lorda, króla Verity</li>
+          <li>Zdobycie pracy</li>
+          <li>Pogromca żółtych kulek z uśmiechem</li>
+        </ul>
+        <details>
+          <summary>Pokaż szczegóły osiągnięcia</summary>
+          <p>Pokonanie wielkiego boga, lorda, króla Verity - zdobyte 14.07.2023 w zamku Verity</p>
+          <p>Zdobycie pracy - wreście wysłał cv</p>
+          <p>Pogromca żółtych kulek z uśmiechem - pokonaj 5000 verity</p>
+        </details>
+      </section>
+
+      <footer class="card-footer">
+        <p>Ostatnia Aktywność: <time datatime="2026-10-17">17 paździenika 2026</time></p>
+      </footer>
+     </main>
+    </body>
+   </html>
